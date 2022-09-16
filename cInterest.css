@@ -1,0 +1,77 @@
+body {
+  background-color: black;
+  background: linear-gradient(
+    90deg,
+    rgb(18, 17, 49) 0%,
+    rgb(19, 19, 94) 35%,
+    rgb(18, 17, 49) 100%
+  );
+}
+
+h1 {
+  background-color: rgb(0, 1, 34);
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-weight: 2px;
+  text-shadow: 3px 3px 3px rgb(196, 42, 170);
+  color: white;
+  margin: 0px;
+  padding: 35px;
+  transform: center;
+}
+
+p.header {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 13px;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  background-color: rgb(0, 1, 34);
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 2px solid rgb(196, 42, 170);
+}
+
+p.header:hover {
+  transition: 2s ease-out 100ms;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  background-color: rgb(0, 1, 34);
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 2px solid rgb(196, 42, 170);
+}
+
+p.prompt {
+  text-align: right;
+  color: white;
+  padding-right: 40px;
+  font-size: 18px;
+}
+
+input {
+  border: 2px solid rgb(196, 42, 170);
+}
+
+img {
+  height: 250px;
+  width: 300px;
+  padding: 50px;
+}
+
+footer {
+  color: white;
+  background-color: rgb(0, 1, 34);
+  position: fixed;
+  padding-top: 8px;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
